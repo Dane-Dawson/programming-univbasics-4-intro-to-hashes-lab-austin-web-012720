@@ -19,14 +19,21 @@ def pioneer
 end
 
 def id_generator
-  id_hash
+  id_hash = {
+    id: "7"
+  }
+  return id_hash
 end
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+  creator_hash = {
+    key: value
+  }
+  return creator_hash
 end
 
 def read_from_hash(hash, key)
+  return hash[key]
   # return the correct value using the hash and key parameters
 end
 
