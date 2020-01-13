@@ -20,7 +20,7 @@ end
 
 def id_generator
   id_hash = {
-    id: Integer
+    id: 32
   }
   return id_hash
 end
