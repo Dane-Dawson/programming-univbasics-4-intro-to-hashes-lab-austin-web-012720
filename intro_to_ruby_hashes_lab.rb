@@ -27,7 +27,7 @@ end
 
 def my_hash_creator(key, value)
   creator_hash = {
-    #[key]: value
+    key: value
   }
   return creator_hash
 end
