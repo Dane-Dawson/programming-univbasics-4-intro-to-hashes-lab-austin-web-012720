@@ -5,7 +5,8 @@ end
 
 def my_hash
   new_hash = {
-    :things
+    things: "Cheese",
+    weather: "Stormy"
   }
 end
 
