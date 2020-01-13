@@ -8,6 +8,7 @@ def my_hash
     things: "Cheese",
     weather: "Stormy"
   }
+  return new_hash
 end
 
 def pioneer
